@@ -27,12 +27,12 @@ def filter_locations(json_data, locations_hash, file_name):
 
         for port in location["PortSummary"]:
             if port["StatusString"] == "Available":
-                available_ports = port["CountString"].replace(" Ports", "").replace(" Port", "")
+                available_ports = port["CountString"]
             elif port["StatusString"] == "Total":
-                total_ports = port["CountString"].replace(" Ports", "").replace(" Port", "")
+                total_ports = port["CountString"]
             elif port["StatusString"] == "Coming Soon":
                 available_ports = "NA"
-                total_ports = port["CountString"].replace(" Ports", "").replace(" Port", "")
+                total_ports = port["CountString"]
 
         if loc_name not in locations_hash:
             locations_hash[loc_name] = {}
