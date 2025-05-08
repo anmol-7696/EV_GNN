@@ -1,107 +1,127 @@
-# Import libraries for data handling, deep learning, and GNNs
+# ============================
+# 1. Import necessary libraries
+# ============================
 import os
 import pandas as pd
+import numpy as np
 import torch
 import torch.nn.functional as F
 from torch_geometric.data import Data
 from torch_geometric.nn import GCNConv
-import numpy as np
 
-# 1. Load and preprocess a small part of the dataset
-def load_traffic_data(folder_path):
-    # Get list of CSV files in the given folder
-    files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.csv')]
-    dfs = []
-    for file in files[:10]:  # Load only first 10 files for demo (can increase later)
-        df = pd.read_csv(file)
-        dfs.append(df)
-    data = pd.concat(dfs)  # Combine all files into one big dataframe
-    return data
+# ============================
+# 2. Load and preprocess traffic data
+# ============================
+def load_traffic_data(csv_path):
+    # Load the CSV file
+    df = pd.read_csv(csv_path)
+    df = df.dropna()  # Remove missing values
 
-# Instead of folder loading, read a single CSV directly
-folder_path = "/Users/anmolpreetsingh/Desktop/trafficData/"  # Provide path to your downloaded CSV
-traffic_data = load_traffic_data(folder_path)
+    # Convert TIMESTAMP to datetime format
+    df['TIMESTAMP'] = pd.to_datetime(df['TIMESTAMP'])
 
-print("Loaded data:", traffic_data.shape)  # Print how much data was loaded
+    return df
 
-# 2. Basic preprocessing
-traffic_data = traffic_data.dropna()  # Remove any rows with missing data
-traffic_data['TIMESTAMP'] = pd.to_datetime(traffic_data['TIMESTAMP'])  # Convert timestamp to datetime
-traffic_data = traffic_data.sort_values(by='TIMESTAMP')  # Sort data by time
+# Load your dataset
+csv_path = "/Users/anmolpreetsingh/Desktop/trafficData/trafficData.csv"  # Change if needed
+df = load_traffic_data(csv_path)
 
-# Take one snapshot (a single timestamp) to create a graph
-snapshot = traffic_data[traffic_data['TIMESTAMP'] == traffic_data['TIMESTAMP'].iloc[0]]
+# ============================
+# 3. Take a snapshot at a single timestamp
+# ============================
+# Select the earliest timestamp
+selected_time = df['TIMESTAMP'].min()
+snapshot = df[df['TIMESTAMP'] == selected_time]
 
-# 3. Create node features
-# Pick avgSpeed and vehicleCount as features for each sensor (node)
-node_features = snapshot[['avgSpeed', 'vehicleCount']].values
-x = torch.tensor(node_features, dtype=torch.float)  # Convert to PyTorch tensor
+# Sort by sensor ID for consistency
+snapshot = snapshot.sort_values('extID')
 
-# 4. Build safe edges between nodes (so that GNN can learn)
+# ============================
+# 4. Extract features and labels
+# ============================
+# Use 3 numerical features: avgMeasuredTime, avgSpeed, medianMeasuredTime
+node_features = snapshot[['avgMeasuredTime', 'avgSpeed', 'medianMeasuredTime']].values
+x = torch.tensor(node_features, dtype=torch.float)
+
+# Target to predict: vehicleCount
+y = torch.tensor(snapshot['vehicleCount'].values, dtype=torch.float)
+
+# ============================
+# 5. Generate synthetic edges (each node connects to 3 others)
+# ============================
 num_nodes = x.shape[0]
 edge_index = []
 
-if num_nodes > 1:  # Only if there are at least 2 nodes
-    k = min(3, num_nodes - 1)  # Each node will connect to up to 3 neighbors
+k = min(3, num_nodes - 1)  # 3 neighbors per node (or fewer if <4 nodes)
 
+for i in range(num_nodes):
+    neighbors = np.random.choice([j for j in range(num_nodes) if j != i], size=k, replace=False)
+    for j in neighbors:
+        edge_index.append([i, j])
+
+# Convert edge list to tensor format (2, num_edges)
+edge_index_list = []
+
+if num_nodes > 1:
+    k = min(3, num_nodes - 1)
     for i in range(num_nodes):
-        neighbors = np.random.choice(
-            [j for j in range(num_nodes) if j != i],  # Pick neighbors (no self-connections)
-            size=k,
-            replace=False
-        )
+        neighbors = np.random.choice([j for j in range(num_nodes) if j != i], size=k, replace=False)
         for j in neighbors:
-            edge_index.append([i, j])  # Create directed edges
-
-    # Convert edge list to tensor
-    edge_index = torch.tensor(edge_index, dtype=torch.long).t().contiguous()
+            edge_index_list.append([i, j])
+    edge_index = torch.tensor(edge_index_list, dtype=torch.long).t().contiguous()
 else:
-    print("Not enough nodes to create edges.")  # Safe fallback
+    print("Warning: Not enough nodes to create edges.")
     edge_index = torch.empty((2, 0), dtype=torch.long)
 
-print("Edge index shape:", edge_index.shape)  # Check how many edges were created
+#edge_index = torch.tensor(edge_index, dtype=torch.long).t().contiguous()
 
-#----------------------------- we are trying to preditct vehicle count at each node ---------------#
-# 5. Define target output
-# What we are trying to predict: vehicle count at each node
-y = torch.tensor(snapshot['vehicleCount'].values, dtype=torch.float)
-
-# 6. Create a PyTorch Geometric Data object
-# Wrap features, edges, and labels into one graph object
+# ============================
+# 6. Wrap into a PyTorch Geometric data object
+# ============================
 data = Data(x=x, edge_index=edge_index, y=y)
 
-# 7. Define the GCN Model
+# ============================
+# 7. Define the GCN model
+# ============================
 class TrafficGCN(torch.nn.Module):
     def __init__(self):
         super(TrafficGCN, self).__init__()
-        # First Graph Convolution layer: input 2 features -> 16 hidden features
-        self.conv1 = GCNConv(2, 16)
-        # Second Graph Convolution layer: 16 hidden features -> 1 output (vehicle count prediction)
-        self.conv2 = GCNConv(16, 1)
+        self.conv1 = GCNConv(3, 16)  # 3 input features
+        self.conv2 = GCNConv(16, 1)  # Predict 1 output per node
 
     def forward(self, data):
-        x, edge_index = data.x, data.edge_index  # Extract node features and edge list
-        x = self.conv1(x, edge_index)  # First GCN layer
-        x = F.relu(x)  # Activation function
-        x = self.conv2(x, edge_index)  # Second GCN layer
-        return x.squeeze()  # Remove extra dimensions for output
+        x, edge_index = data.x, data.edge_index
+        x = self.conv1(x, edge_index)
+        x = F.relu(x)
+        x = self.conv2(x, edge_index)
+        return x.squeeze()  # Remove extra dimension from output
 
+# ============================
 # 8. Train the model
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # Use GPU if available
-model = TrafficGCN().to(device)  # Move model to device
-data = data.to(device)  # Move data to device
-optimizer = torch.optim.Adam(model.parameters(), lr=0.01)  # Optimizer setup
+# ============================
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-model.train()  # Set model to training mode
-for epoch in range(201):  # Train for 200 epochs
-    optimizer.zero_grad()  # Reset gradients
-    out = model(data)  # Forward pass (predict outputs)
-    loss = F.mse_loss(out, data.y)  # Calculate Mean Squared Error loss
-    loss.backward()  # Backpropagation (compute gradients)
-    optimizer.step()  # Update model parameters
+model = TrafficGCN().to(device)
+data = data.to(device)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
+
+model.train()
+for epoch in range(201):
+    optimizer.zero_grad()
+    out = model(data)
+    loss = F.mse_loss(out, data.y)
+    loss.backward()
+    optimizer.step()
 
     if epoch % 20 == 0:
-        print(f'Epoch {epoch} | Loss: {loss.item():.4f}')  # Print loss every 20 epochs
+        print(f"Epoch {epoch} | Loss: {loss.item():.4f}")
 
-# 9. Done! 🚀
-# After training, the model can predict vehicle counts at each sensor based on graph structure + features.
+# ============================
+# 9. Done! Model can now predict vehicleCount from graph structure
+# ============================
+model.eval()
+with torch.no_grad():
+    predictions = model(data)
+    print("\nSample predictions:")
+    print(predictions if predictions.dim() > 0 else predictions.unsqueeze(0))
+
