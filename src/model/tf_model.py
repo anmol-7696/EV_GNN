@@ -1,51 +1,51 @@
 from einops import rearrange
 from sklearn.metrics import mean_absolute_error as MAE, root_mean_squared_error, mean_absolute_percentage_error
 from torch import optim, nn
-from torch.nn import ModuleList, Linear
-from torch_geometric.nn import EdgeConv, GCNConv, GATConv
+from torch.nn import Linear
+from torch_geometric.nn import GCNConv, GATConv
 from torch.nn import functional as F
 import pytorch_lightning as pl
 from argparse import Namespace
-
+import torch
 from tsl.nn.models import DCRNNModel, GraphWaveNetModel, AGCRNModel
-
+from lightning.pytorch import LightningModule
 from src.model.GCN1D import GCN1DConv_big, GCN1DConv
 from src.model.GConvRNN import GraphConvRNN_our
-from src.model.layers import *
 
-from src.model.layers import MLP
 from src.model.miniRNN import MultiLayerLSTMParallel, MultiLayerGRUParallel
 
 
-class BaselineModelPV(pl.LightningModule):
+class TF_model(LightningModule):
     def __init__(self, params):
-        super(BaselineModelPV, self).__init__()
+        super(TF_model, self).__init__()
         hidden_channels = params.emb_dim
         node_features = params.node_features
+        num_nodes = params.num_nodes
+        self.params = params
+        # GCN
         if params.model == 'gcn':
             self.conv1 = GCNConv(node_features, hidden_channels)
             self.conv2 = GCNConv(hidden_channels, hidden_channels)
             self.conv3 = GCNConv(hidden_channels, hidden_channels)
+        # GAT
         elif params.model == 'gat':
             self.conv1 = GATConv(node_features, hidden_channels)
             self.conv2 = GATConv(hidden_channels, hidden_channels)
             self.conv3 = GATConv(hidden_channels, hidden_channels)
-        elif params.model == 'mlp':
-            self.conv1 = nn.Linear(node_features, params.dgm_layers[0])
-            self.conv2 = MLP(params.dgm_layers)
-            self.conv3 = MLP(params.dgm_layers)
+
+        # GCN1D
         elif params.model == 'gcn1d':
             self.gcn1d_model = GCN1DConv(node_features, params.prediction_window, 1, 1, hid_dim=hidden_channels,)
-
+        # GCN1D-B
         elif params.model == 'gcn1d-big':
             self.gcn1d_big_model = GCN1DConv_big(node_features, params.prediction_window, 1, 1, hid_dim=hidden_channels,)
-
+        # GCONV-LSTM
         elif  params.model == 'gConvLSTM':
             self.g_conv_lstm = GraphConvRNN_our(1, params.prediction_window, hidden_channels, params, cell_type='LSTM')
-
+        # GCONV-GRU
         elif  params.model == 'gConvGRU':
             self.g_conv_gru = GraphConvRNN_our(1, params.prediction_window, hidden_channels, params, cell_type='GRU')
-
+        # DCRNN
         elif params.model == 'DCRNN':
             self.dcrnn = DCRNNModel(input_size=1,
                                 output_size=1,
@@ -55,27 +55,31 @@ class BaselineModelPV(pl.LightningModule):
                                 n_layers=2,
                                 dropout=0.0,
                                 activation='relu')
+        # GraphWavenet
         elif params.model == 'GraphWavenet':
             self.graph_wavenet = GraphWaveNetModel(input_size=1,
                                                     output_size=1,
                                                     horizon=params.prediction_window,
                                                     hidden_size=hidden_channels,
-                                                    n_nodes=207,
+                                                    n_nodes=params.num_nodes,
                                                     dropout=0.3)
+        # AGCRN
         elif params.model == 'AGCRNModel':
             self.agcrn = AGCRNModel(input_size=1,
                                     output_size=1,
                                     horizon=params.prediction_window,
                                     hidden_size=hidden_channels,
                                     exog_size=0,
-                                    n_nodes=207)
+                                    n_nodes=params.num_nodes)
 
+        # miniLSTM
         elif params.model == 'miniLSTM':
             self.miniLSTM = MultiLayerLSTMParallel(input_size=1,
                                                    hidden_size=hidden_channels,
                                                    output_size=params.prediction_window,
                                                    num_layers=params.num_layers,
                                                    seq_len=params.lags)
+        # miniGRU
         elif params.model == 'miniGRU':
             self.miniGRU = MultiLayerGRUParallel(input_size=1,
                                                    hidden_size=hidden_channels,
@@ -125,17 +129,34 @@ class BaselineModelPV(pl.LightningModule):
 
         elif self.params.model == 'gConvGRU':
             x = self.g_conv_gru(x, edge_index)
+
         elif self.params.model == 'DCRNN':
+            # torch-spatiotemporal library data format
+            if x.shape != 4:
+                x = torch.reshape(x.unsqueeze(-1), (self.params.batch_size, self.params.lags, self.params.num_nodes, 1))
+                edge_index = edge_index[:, :int(edge_index.shape[1]/self.params.batch_size)]
             x = self.dcrnn(x, edge_index)
             x = rearrange(x, 'b t n f ->  (b n) (t f) ')
+
         elif self.params.model == 'GraphWavenet':
+            # torch-spatiotemporal library data format
+            if x.shape != 4:
+                x = torch.reshape(x.unsqueeze(-1), (self.params.batch_size, self.params.lags, self.params.num_nodes, 1))
+                edge_index = edge_index[:, :int(edge_index.shape[1]/self.params.batch_size)]
             x = self.graph_wavenet(x, edge_index)
             x = rearrange(x, 'b t n f ->  (b n) (t f) ')
+
         elif self.params.model == 'AGCRNModel':
+            # torch-spatiotemporal library data format
+            if x.shape != 4:
+                x = torch.reshape(x.unsqueeze(-1), (self.params.batch_size, self.params.lags, self.params.num_nodes, 1))
+                edge_index = edge_index[:, :int(edge_index.shape[1]/self.params.batch_size)]
             x = self.agcrn(x)
             x = rearrange(x, 'b t n f ->  (b n) (t f) ')
+
         elif self.params.model == 'miniLSTM':
             x = self.miniLSTM(x)
+
         elif self.params.model == 'miniGRU':
             x = self.miniGRU(x)
         return x
@@ -197,7 +218,6 @@ class BaselineModelPV(pl.LightningModule):
         self.log('train_mape', train_mape, batch_size=self.params.batch_size, prog_bar=True)
 
     def validation_step(self, val_batch, batch_idx):
-        # Get data from batches
         # Get data from batches
         x, y, edge_index, edge_weight = (val_batch.x,
                                          val_batch.y[:, :self.params.prediction_window],

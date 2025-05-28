@@ -1,19 +1,3 @@
-# import json
-#
-# json_filename = 'denmark/DenamarkEVstations.json'
-#
-# with open(json_filename) as f:
-#     content = json.load(f)
-#     print(content)
-#
-#
-# list_of_stations = list()
-# for elem in content:
-#     lat = elem['AddressInfo']['Latitude']
-#     long = elem['AddressInfo']['Latitude']
-#     list_of_stations.append((lat, long))
-#
-# print(len(list_of_stations))
 import math
 import pandas as pd
 import numpy as np

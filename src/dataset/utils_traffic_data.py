@@ -1,5 +1,4 @@
 import json
-
 import pandas as pd
 import folium
 import random

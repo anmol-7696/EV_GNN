@@ -25,7 +25,7 @@ trainer = pl.Trainer(accelerator=run_params.accelerator,
                      enable_model_summary=False,
                      check_val_every_n_epoch=run_params.check_val_every_n_epoch,
                      logger=False,
-                     callbacks=[callbacks])
+                     callbacks=[])
 
 # Start training
 trainer.fit(model, datamodule=dataModuleInstance)
