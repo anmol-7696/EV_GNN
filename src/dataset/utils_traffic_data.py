@@ -99,7 +99,7 @@ def mappa_osservazioni_csv(
             ).add_to(mappa)
 
     # Add EV locations
-    json_filename = 'denmark/DenamarkEVstations.json'
+    json_filename = '../../data/ev/denmark/DenamarkEVstations.json'
 
     with open(json_filename) as f:
         content = json.load(f)

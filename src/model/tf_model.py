@@ -4,14 +4,12 @@ from torch import optim, nn
 from torch.nn import Linear
 from torch_geometric.nn import GCNConv, GATConv
 from torch.nn import functional as F
-import pytorch_lightning as pl
-from argparse import Namespace
 import torch
 from tsl.nn.models import DCRNNModel, GraphWaveNetModel, AGCRNModel
 from lightning.pytorch import LightningModule
+
 from src.model.GCN1D import GCN1DConv_big, GCN1DConv
 from src.model.GConvRNN import GraphConvRNN_our
-
 from src.model.miniRNN import MultiLayerLSTMParallel, MultiLayerGRUParallel
 
 

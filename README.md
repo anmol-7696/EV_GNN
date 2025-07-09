@@ -7,6 +7,15 @@ This repository hosts a collaborative project focused on developing **Graph Neur
 ## 📂 Repository Structure  
 EV_GNN\
 │── data --> Datasets for training and testing\
+│──── \ ev --> EV datasets \
+│──── \ ──── \ denmark --> EV dataset \
+│──── \ ──── \ ──── \denmark_ev_station_availability\ --> Folder with EV files \
+│──── \ ──── \ ──── \DenamarkEVstations.json --> EV metadata \
+│──── \ other --> Observations maps \
+│──── \ traffic --> Model checkpoints \
+│──── \ ──── \ denmark --> Traffic dataset \
+│──── \ ──── \ ──── \citypulse_traffic_raw_data_surrey_feb_jun_2014\ --> Folder with Traffic files \
+│──── \ ──── \ ──── \ traffic_metadata.json --> Traffic metadata\
 │── logs --> Folder for saving logs info \
 │── env.yml --> Conda environment \
 │── README.md --> Introduction and usage guide \
@@ -33,5 +42,5 @@ EV_GNN\
    
 3. Run training:
    ```bash
-    python main.py
+    python main_example.py
     ```

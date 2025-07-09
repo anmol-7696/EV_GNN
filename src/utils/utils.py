@@ -1,6 +1,5 @@
 from lightning.pytorch.callbacks import ModelCheckpoint
 from pytorch_lightning.callbacks import EarlyStopping
-from src.model.model_classic import BaselineModelPV
 from src.model.tf_model import TF_model
 
 
