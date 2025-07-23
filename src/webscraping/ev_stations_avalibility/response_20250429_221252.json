@@ -1,0 +1,2973 @@
+{
+    "locationsArray": [
+        {
+            "LocID": 168191,
+            "LocName": "GBA Grande Pointe",
+            "Lat": 49.752267385277115,
+            "Long": -97.02974794440188,
+            "IsPassportEnabled": true,
+            "NetString": "Eaton",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167923,
+            "LocName": "University of Manitoba - Bannatyne Parkade",
+            "Lat": 49.905128,
+            "Long": -97.16284,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167169,
+            "LocName": "McPhillips Nissan",
+            "Lat": 49.950297,
+            "Long": -97.152062,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167082,
+            "LocName": "90 Sutherland Avenue",
+            "Lat": 49.90478,
+            "Long": -97.12644,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167080,
+            "LocName": "Selkirk Medical Center",
+            "Lat": 50.14215,
+            "Long": -96.87152,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167078,
+            "LocName": "Metis Child, Family and Community Services",
+            "Lat": 49.87773,
+            "Long": -97.22758,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167077,
+            "LocName": "Outlook Financial",
+            "Lat": 49.89083,
+            "Long": -97.13667,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167072,
+            "LocName": "Jim Pattison Subaru South",
+            "Lat": 49.81193922,
+            "Long": -97.18771927,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167071,
+            "LocName": "Crown Mazda",
+            "Lat": 49.88088,
+            "Long": -97.31519,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 167069,
+            "LocName": "Jim Pattison Subaru on Regent",
+            "Lat": 49.89466351,
+            "Long": -97.05029531,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 166635,
+            "LocName": "Portage Toyota & RV",
+            "Lat": 49.976095,
+            "Long": -98.341659,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 163843,
+            "LocName": "University of Winnipeg - Surface Lot 1",
+            "Lat": 49.891825,
+            "Long": -97.15355,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 163607,
+            "LocName": "Holiday Inn Express Winnipeg Airport - Polo Park",
+            "Lat": 49.893953,
+            "Long": -97.205342,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 161852,
+            "LocName": "South Saint Clements Activity Centre",
+            "Lat": 50.03626,
+            "Long": -96.97901,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 160098,
+            "LocName": "University of Winnipeg - Lot 141",
+            "Lat": 49.890158,
+            "Long": -97.155375,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 159927,
+            "LocName": "Highland Views Apartments - Broadstreet Properties Ltd.",
+            "Lat": 49.970961,
+            "Long": -97.111335,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 157374,
+            "LocName": "Gescan",
+            "Lat": 49.892881,
+            "Long": -97.196291,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 154804,
+            "LocName": "Interstate Batteries Distributor",
+            "Lat": 49.89881,
+            "Long": -97.081669,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 153683,
+            "LocName": "Dunn Chrysler Dodge - Portage la Prairie, MB",
+            "Lat": 49.97616,
+            "Long": -98.339582,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 153160,
+            "LocName": "Jim Gauthier Chevrolet - Winnipeg, MB",
+            "Lat": 49.940987,
+            "Long": -97.159902,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 151861,
+            "LocName": "Latitude 49 at Sage Creek",
+            "Lat": 49.83412,
+            "Long": -97.04501,
+            "IsPassportEnabled": true,
+            "NetString": "Hypercharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "21 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 151790,
+            "LocName": "The Summit at Seasons Apartments",
+            "Lat": 49.8452726,
+            "Long": -97.218639,
+            "IsPassportEnabled": true,
+            "NetString": "Hypercharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "26 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 150144,
+            "LocName": "The Mandalay Suites Apartments",
+            "Lat": 49.963184,
+            "Long": -97.18072,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 149153,
+            "LocName": "Volkswagen on Regent - Birchwood",
+            "Lat": 49.894268,
+            "Long": -97.038725,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 149008,
+            "LocName": "Navkar Logistics",
+            "Lat": 49.827509,
+            "Long": -97.150154,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 147737,
+            "LocName": "Wawanesa Insurance",
+            "Lat": 49.89118,
+            "Long": -97.14542,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 146010,
+            "LocName": "Crown Acura",
+            "Lat": 49.817011,
+            "Long": -97.176447,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 145706,
+            "LocName": "Boyd Autobody & Glass",
+            "Lat": 49.87458,
+            "Long": -97.26234,
+            "IsPassportEnabled": true,
+            "NetString": "Blink",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Offline.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Offline",
+                    "StatusStyle": "OfflineStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 145630,
+            "LocName": "Birchwood Nissan",
+            "Lat": 49.883438,
+            "Long": -97.327183,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 145434,
+            "LocName": "TC Energy Centre - 1 Rivard Street Ile des Chênes, MB",
+            "Lat": 49.713898,
+            "Long": -96.994947,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 143703,
+            "LocName": "Ben & Florentine Kenaston",
+            "Lat": 49.816715,
+            "Long": -97.196208,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 143699,
+            "LocName": "IntouchCX - Waverley",
+            "Lat": 49.843166,
+            "Long": -97.180284,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 143698,
+            "LocName": "Burrito Splendido",
+            "Lat": 49.826258,
+            "Long": -97.115158,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 143696,
+            "LocName": "Shoppers Drug Mart",
+            "Lat": 49.938439,
+            "Long": -97.092728,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 143695,
+            "LocName": "Wayback Burgers",
+            "Lat": 49.901691,
+            "Long": -97.19919,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 143694,
+            "LocName": "Fun Park Amusement Center",
+            "Lat": 49.847087,
+            "Long": -97.198993,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 143657,
+            "LocName": "QSI Interiors Ltd.",
+            "Lat": 49.899237,
+            "Long": -97.084039,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 142986,
+            "LocName": "1982 Saint Mary's Road",
+            "Lat": 49.80876,
+            "Long": -97.11569,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 142981,
+            "LocName": "The Point Apartments",
+            "Lat": 49.847582,
+            "Long": -97.153448,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "7 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 142725,
+            "LocName": "The Citation at Westport",
+            "Lat": 49.8830093,
+            "Long": -97.33389439999999,
+            "IsPassportEnabled": true,
+            "NetString": "Hypercharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 140565,
+            "LocName": "Winnipeg Square Underground Parking",
+            "Lat": 49.89326,
+            "Long": -97.13868,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 140319,
+            "LocName": "Sol at Aurora",
+            "Lat": 49.9642833,
+            "Long": -97.1237001,
+            "IsPassportEnabled": true,
+            "NetString": "Hypercharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "12 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "12 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 140213,
+            "LocName": "Vista 429 - Sherwood Developments",
+            "Lat": 49.842969,
+            "Long": -97.082972,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 139432,
+            "LocName": "Falcon Beach Ranch",
+            "Lat": 49.691925,
+            "Long": -95.334377,
+            "IsPassportEnabled": false,
+            "NetString": "Tesla",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Tesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 139217,
+            "LocName": "Broadstreet Properties - Winnipeg Regional Office",
+            "Lat": 49.875908,
+            "Long": -97.04113,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 138742,
+            "LocName": "The Leaf",
+            "Lat": 49.869324,
+            "Long": -97.22492,
+            "IsPassportEnabled": false,
+            "NetString": "Unknown",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 138004,
+            "LocName": "Bishop Heights - Broadstreet Properties Ltd. - Winnipeg, MB",
+            "Lat": 49.820916596478845,
+            "Long": -97.16322087962341,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 137393,
+            "LocName": "East Selkirk Middle School",
+            "Lat": 50.130076,
+            "Long": -96.824372,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 137385,
+            "LocName": "The Pearl Apartments",
+            "Lat": 49.821509,
+            "Long": -97.138251,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 137147,
+            "LocName": "Fairway Woods Condo",
+            "Lat": 49.807691,
+            "Long": -97.148493,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 137023,
+            "LocName": "Red River College Polytechnic Campus",
+            "Lat": 49.91901,
+            "Long": -97.20692,
+            "IsPassportEnabled": false,
+            "NetString": "Jule",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 136707,
+            "LocName": "DGH Engineering Ltd",
+            "Lat": 50.050056,
+            "Long": -97.048799,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 135425,
+            "LocName": "Birds Hill Provincial Park West Beach Parking Lot",
+            "Lat": 50.017499,
+            "Long": -96.885025,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 131783,
+            "LocName": "Richardson Centre Parkade",
+            "Lat": 49.895682507659835,
+            "Long": -97.13602996785023,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 129649,
+            "LocName": "Birchwood Hyundai",
+            "Lat": 49.95787959708726,
+            "Long": -97.1446441276474,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 129488,
+            "LocName": "Mcnaught Buick Pontiac - Winnipeg - Smart DC",
+            "Lat": 49.814604,
+            "Long": -97.180494,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 129487,
+            "LocName": "McNaught Buick GMC",
+            "Lat": 49.815253,
+            "Long": -97.181263,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "5 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "5 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 128816,
+            "LocName": "Lower Fort Garry - Tesla Destination - St Andrews, MB",
+            "Lat": 50.1098612723049,
+            "Long": -96.9358326788483,
+            "IsPassportEnabled": false,
+            "NetString": "Multiple networks",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_RegularAndTesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 128775,
+            "LocName": "Craig Dunn Chevrolet Buick GMC LTD | Fast Charger",
+            "Lat": 49.973877,
+            "Long": -98.322114,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 128507,
+            "LocName": "Outlet Collection Winnipeg",
+            "Lat": 49.846466,
+            "Long": -97.214,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125782,
+            "LocName": "Nott Autocorp - Tesla Destination",
+            "Lat": 49.829662,
+            "Long": -97.178921,
+            "IsPassportEnabled": false,
+            "NetString": "Tesla",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Tesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125781,
+            "LocName": "Winnipeg Airport - Tesla Destination",
+            "Lat": 49.902948,
+            "Long": -97.225914,
+            "IsPassportEnabled": false,
+            "NetString": "Tesla",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Tesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125635,
+            "LocName": "Luna at Aurora",
+            "Lat": 49.9668627,
+            "Long": -97.1298475,
+            "IsPassportEnabled": true,
+            "NetString": "Hypercharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "13 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125625,
+            "LocName": "The Tradition at Bridgewater 2",
+            "Lat": 49.7905331,
+            "Long": -97.21321540000001,
+            "IsPassportEnabled": true,
+            "NetString": "Hypercharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125624,
+            "LocName": "The Tradition at Bridgewater UG",
+            "Lat": 49.7905698,
+            "Long": -97.2101837,
+            "IsPassportEnabled": true,
+            "NetString": "Hypercharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "5 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125298,
+            "LocName": "Barker Suites",
+            "Lat": 49.915203,
+            "Long": -98.2728,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125246,
+            "LocName": "85 Centennaire Drive",
+            "Lat": 49.917797,
+            "Long": -98.27463,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 125065,
+            "LocName": "Mid-town Ford Sales",
+            "Lat": 49.815889,
+            "Long": -97.180247,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "5 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 122113,
+            "LocName": "Royal Aviation Museum of Western Canada - Winnipeg, MB",
+            "Lat": 49.90105,
+            "Long": -97.224106,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 121805,
+            "LocName": "Kildonan Heights - Broadstreet Properties Ltd.",
+            "Lat": 49.90918,
+            "Long": -97.06351,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "15 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "16 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 121615,
+            "LocName": "Super 8 by Wyndham Winnipeg East",
+            "Lat": 49.85688,
+            "Long": -97.04134,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120022,
+            "LocName": "Stonewall Training Centre",
+            "Lat": 50.1166043235836,
+            "Long": -97.4357085636751,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120017,
+            "LocName": "Springfield Station",
+            "Lat": 49.9366036907507,
+            "Long": -97.0647047015698,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120016,
+            "LocName": "Taylor Complex",
+            "Lat": 49.8560833280641,
+            "Long": -97.154801270168,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120013,
+            "LocName": "Portage la Prairie CSC",
+            "Lat": 49.9732488353932,
+            "Long": -98.2709331103651,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120011,
+            "LocName": "Henlow Complex",
+            "Lat": 49.816622092729,
+            "Long": -97.1882247510548,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120009,
+            "LocName": "Henlow Complex",
+            "Lat": 49.8154762917264,
+            "Long": -97.1885378444088,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120007,
+            "LocName": "Sutherland Complex",
+            "Lat": 49.9043094453184,
+            "Long": -97.1231384558829,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 120001,
+            "LocName": "Kingsbury Station",
+            "Lat": 49.9508734128854,
+            "Long": -97.1509777146138,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 119998,
+            "LocName": "1840 Chevrier",
+            "Lat": 49.8230932821296,
+            "Long": -97.1764405779096,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 119994,
+            "LocName": "1370 Sony Place",
+            "Lat": 49.8339686053477,
+            "Long": -97.1699304916332,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 119993,
+            "LocName": "Notre Dame - Weston Complex 2",
+            "Lat": 49.9119063460272,
+            "Long": -97.1797350890554,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 119991,
+            "LocName": "1284 Wilkes",
+            "Lat": 49.8464559801144,
+            "Long": -97.2041727023187,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 119989,
+            "LocName": "110 Newmarket",
+            "Lat": 49.8223306277553,
+            "Long": -97.1705554351946,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 119916,
+            "LocName": "North Town Center",
+            "Lat": 49.798859,
+            "Long": -97.196249,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 118534,
+            "LocName": "Motel 6 Headingley",
+            "Lat": 49.87671,
+            "Long": -97.352486,
+            "IsPassportEnabled": false,
+            "NetString": "Sun Country Highway",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 118323,
+            "LocName": "Porsche Center Winnipeg",
+            "Lat": 49.843393,
+            "Long": -97.209633,
+            "IsPassportEnabled": false,
+            "NetString": "Unknown",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 118322,
+            "LocName": "Waverly Dodge",
+            "Lat": 49.816885,
+            "Long": -97.178195,
+            "IsPassportEnabled": false,
+            "NetString": "Unknown",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 118321,
+            "LocName": "Murray Hyundai",
+            "Lat": 49.816708,
+            "Long": -97.174233,
+            "IsPassportEnabled": false,
+            "NetString": "Unknown",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 118043,
+            "LocName": "Heritage Park - Broadstreet Properties",
+            "Lat": 49.88849,
+            "Long": -97.280304,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 117748,
+            "LocName": "Federated Co-operatives Limited",
+            "Lat": 49.798785,
+            "Long": -97.197979,
+            "IsPassportEnabled": true,
+            "NetString": "Co-op Connect",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 117723,
+            "LocName": "Red River Co-op - Charleswood - Winnipeg, MB",
+            "Lat": 49.868648,
+            "Long": -97.257866,
+            "IsPassportEnabled": true,
+            "NetString": "Co-op Connect",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 116936,
+            "LocName": "Courtview Landing - Broadstreet Properties Ltd.",
+            "Lat": 49.95831,
+            "Long": -97.152596,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 116578,
+            "LocName": "Vickar Nissan - DCFC - Winnipeg, MB",
+            "Lat": 49.894715,
+            "Long": -97.044992,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 116478,
+            "LocName": "Princess Auto",
+            "Lat": 49.896829,
+            "Long": -97.073309,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 116011,
+            "LocName": "GB - University of Manitoba - 1 - B Lot/University College Great Hall",
+            "Lat": 49.81179,
+            "Long": -97.129503,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 114202,
+            "LocName": "CAA Manitoba",
+            "Lat": 49.88760279461333,
+            "Long": -97.09085191268919,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 113335,
+            "LocName": "Winnipeg 7 Oaks Pool",
+            "Lat": 49.954536,
+            "Long": -97.174515,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 113059,
+            "LocName": "Shell - Winnipeg, MB",
+            "Lat": 49.832841,
+            "Long": -97.049143,
+            "IsPassportEnabled": true,
+            "NetString": "Shell Recharge",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112893,
+            "LocName": "561 Bernat Road",
+            "Lat": 49.75730719526587,
+            "Long": -97.02588158624036,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112886,
+            "LocName": "Bill and Helen Norrie Library",
+            "Lat": 49.855824,
+            "Long": -97.174914,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112885,
+            "LocName": "215 Manitoba Avenue",
+            "Lat": 50.144244,
+            "Long": -96.869928,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112881,
+            "LocName": "Pinawa Motel",
+            "Lat": 50.14663427406731,
+            "Long": -95.8769243748867,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112880,
+            "LocName": "Orville Acres Arena",
+            "Lat": 50.1487627,
+            "Long": -95.8841977,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112781,
+            "LocName": "Winnipeg Kildonan Park",
+            "Lat": 49.943336,
+            "Long": -97.1049,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112308,
+            "LocName": "Red River Co-op - St Vital - Winnipeg, MB",
+            "Lat": 49.82832,
+            "Long": -97.1055,
+            "IsPassportEnabled": true,
+            "NetString": "Co-op Connect",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Offline.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Offline",
+                    "StatusStyle": "OfflineStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112272,
+            "LocName": "Pinawa Heritage Sundial",
+            "Lat": 50.146606,
+            "Long": -95.87534,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112271,
+            "LocName": "Ritchot Transcan Centre",
+            "Lat": 49.714626,
+            "Long": -96.99465,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112111,
+            "LocName": "True North Square",
+            "Lat": 49.89092579897299,
+            "Long": -97.14480825865552,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112110,
+            "LocName": "Audi Winnipeg",
+            "Lat": 49.8445221672865,
+            "Long": -97.2098427861429,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112109,
+            "LocName": "GB - University of Manitoba - 3 - H lot/Stanley Pauley Center",
+            "Lat": 49.807962,
+            "Long": -97.133501,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 112108,
+            "LocName": "Grande Pointe Park",
+            "Lat": 49.76418,
+            "Long": -97.02599,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 111583,
+            "LocName": "RM Tache",
+            "Lat": 49.771755,
+            "Long": -96.81683,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 110919,
+            "LocName": "Canadian Tire - Saint Boniface",
+            "Lat": 49.854891,
+            "Long": -97.069754,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 109234,
+            "LocName": "River City Ford",
+            "Lat": 49.8814,
+            "Long": -97.31225,
+            "IsPassportEnabled": true,
+            "NetString": "Multiple networks",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 109103,
+            "LocName": "5100 Crescent Road West Garage",
+            "Lat": 49.959373,
+            "Long": -98.3218,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Offline.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Offline",
+                    "StatusStyle": "OfflineStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 108729,
+            "LocName": "Morguard",
+            "Lat": 49.889333,
+            "Long": -97.14664,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 104996,
+            "LocName": "Jim Gauthier Kia",
+            "Lat": 49.959641,
+            "Long": -97.143804,
+            "IsPassportEnabled": false,
+            "NetString": "Unknown",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 104988,
+            "LocName": "Stonewall Quarry Park",
+            "Lat": 50.140588,
+            "Long": -97.325767,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 104987,
+            "LocName": "Stonewall Town Hall",
+            "Lat": 50.136286,
+            "Long": -97.327816,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 104123,
+            "LocName": "Scurfield Medical Centre",
+            "Lat": 49.815114,
+            "Long": -97.199879,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 103968,
+            "LocName": "Winnipeg St. Vital Park",
+            "Lat": 49.82867,
+            "Long": -97.142685,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 101373,
+            "LocName": "Birchwood Volkswagen",
+            "Lat": 49.8949590186129,
+            "Long": -97.0393716,
+            "IsPassportEnabled": true,
+            "NetString": "ChargeLab",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 98943,
+            "LocName": "Altea Active",
+            "Lat": 49.790082,
+            "Long": -97.196715,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 97049,
+            "LocName": "IKEA Winnipeg",
+            "Lat": 49.839903,
+            "Long": -97.212763,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 86650,
+            "LocName": "Co-op Charging Station",
+            "Lat": 49.9700532,
+            "Long": -98.32233389999999,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 86649,
+            "LocName": "Federated Co-operatives Ltd (FCL) - Winnipeg, MB",
+            "Lat": 49.771416,
+            "Long": -97.158304,
+            "IsPassportEnabled": true,
+            "NetString": "Co-op Connect",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Passport.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 86648,
+            "LocName": "Federated Co-operatives Ltd (FCL)",
+            "Lat": 49.8688695,
+            "Long": -97.2602167,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 86646,
+            "LocName": "Federated Co-operatives Ltd (FCL)",
+            "Lat": 49.8544063,
+            "Long": -97.0756879,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 86587,
+            "LocName": "Canadian Tire Corporation",
+            "Lat": 49.82195,
+            "Long": -97.19611,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 86527,
+            "LocName": "Rural Municipality of East St. Paul",
+            "Lat": 49.970775,
+            "Long": -97.00959,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/PendingPin.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Coming Soon",
+                    "StatusStyle": "ConstructionStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 86481,
+            "LocName": "Canadian Tire Corporation",
+            "Lat": 49.884095,
+            "Long": -97.31122,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 83621,
+            "LocName": "Visions Kitchen Showcase",
+            "Lat": 49.932628,
+            "Long": -97.065232,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 83584,
+            "LocName": "English Garden",
+            "Lat": 49.873944,
+            "Long": -97.233655,
+            "IsPassportEnabled": false,
+            "NetString": "EV Link",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 83575,
+            "LocName": "Fort Whyte Alive",
+            "Lat": 49.82072654241363,
+            "Long": -97.22484035660426,
+            "IsPassportEnabled": false,
+            "NetString": "Multiple networks",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_RegularAndTesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 80873,
+            "LocName": "Petro-Canada - Dugald MB",
+            "Lat": 49.8205741,
+            "Long": -96.9341739,
+            "IsPassportEnabled": false,
+            "NetString": "Petro-Canada",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 79853,
+            "LocName": "Mere Hotel",
+            "Lat": 49.898877,
+            "Long": -97.132294,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Offline.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Offline",
+                    "StatusStyle": "OfflineStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 77120,
+            "LocName": "Jim Pattison Toyota on Regent",
+            "Lat": 49.894607,
+            "Long": -97.04897,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 75729,
+            "LocName": "Crown Nissan",
+            "Lat": 49.81371377417613,
+            "Long": -97.1832888134918,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 73236,
+            "LocName": "Go Auto Haus Volkswagen",
+            "Lat": 49.862442,
+            "Long": -97.148013,
+            "IsPassportEnabled": false,
+            "NetString": "Multiple networks",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 73156,
+            "LocName": "Vickar Mitsubishi",
+            "Lat": 49.894637,
+            "Long": -97.033753,
+            "IsPassportEnabled": true,
+            "NetString": "ChargePoint",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Offline.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Offline",
+                    "StatusStyle": "OfflineStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 66822,
+            "LocName": "Winnipeg, MB Supercharger",
+            "Lat": 49.882108,
+            "Long": -97.19719,
+            "IsPassportEnabled": false,
+            "NetString": "Tesla",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Unknown_Tesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "8 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 65745,
+            "LocName": "FLO - Cadillac Fairview - Polo Park",
+            "Lat": 49.88358,
+            "Long": -97.197216,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 64805,
+            "LocName": "GB - University of Manitoba - Active Living Center",
+            "Lat": 49.807124,
+            "Long": -97.137272,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 63701,
+            "LocName": "Vickar Community Chevrolet",
+            "Lat": 49.894855,
+            "Long": -97.035336,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "3 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 62719,
+            "LocName": "Portage la Prairie, MB Supercharger",
+            "Lat": 49.971971,
+            "Long": -98.318753,
+            "IsPassportEnabled": false,
+            "NetString": "Tesla",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Unknown_Tesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 61438,
+            "LocName": "Assiniboine Park",
+            "Lat": 49.871653,
+            "Long": -97.230053,
+            "IsPassportEnabled": false,
+            "NetString": "EV Link",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 61323,
+            "LocName": "Assiniboine Park Zoo",
+            "Lat": 49.867924,
+            "Long": -97.240957,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 56269,
+            "LocName": "Inn at the Forks",
+            "Lat": 49.88818771720168,
+            "Long": -97.12958494422533,
+            "IsPassportEnabled": false,
+            "NetString": "Tesla",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Tesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 52897,
+            "LocName": "Edmond Financial Group",
+            "Lat": 49.873633,
+            "Long": -97.184722,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 52760,
+            "LocName": "Park'N Fly",
+            "Lat": 49.904089,
+            "Long": -97.209819,
+            "IsPassportEnabled": false,
+            "NetString": "Unknown",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 48167,
+            "LocName": "Winnipeg Square Parkade",
+            "Lat": 49.894112,
+            "Long": -97.138751,
+            "IsPassportEnabled": false,
+            "NetString": "Multiple networks",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_RegularAndTesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "6 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 48142,
+            "LocName": "St. Norbert Hotel",
+            "Lat": 49.765502,
+            "Long": -97.153375,
+            "IsPassportEnabled": false,
+            "NetString": "Tesla",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Tesla.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 44702,
+            "LocName": "Forks Market - Winnipeg, MB",
+            "Lat": 49.88753,
+            "Long": -97.130991,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Available_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Available",
+                    "StatusStyle": "AvailableStyle"
+                },
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 42776,
+            "LocName": "Red River College Polytechnic - Winnipeg, MB",
+            "Lat": 49.9193337685111,
+            "Long": -97.20904312233733,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "4 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 34961,
+            "LocName": "Murray Chevrolet",
+            "Lat": 49.81561,
+            "Long": -97.176521,
+            "IsPassportEnabled": false,
+            "NetString": "Flo",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/3_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 33182,
+            "LocName": "Hilton Winnipeg Airport Suites",
+            "Lat": 49.901496,
+            "Long": -97.209306,
+            "IsPassportEnabled": false,
+            "NetString": "None",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 33181,
+            "LocName": "Winnipeg - FortWhyte Alive - SCH40/32amp (2)",
+            "Lat": 49.82041219248491,
+            "Long": -97.22518527368051,
+            "IsPassportEnabled": false,
+            "NetString": "Sun Country Highway",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "2 Ports",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        },
+        {
+            "LocID": 32909,
+            "LocName": "Best Western Plus - Winnipeg West",
+            "Lat": 49.8781552325212,
+            "Long": -97.3417559669342,
+            "IsPassportEnabled": false,
+            "NetString": "Sun Country Highway",
+            "IconUrl": "https://evclstorage.blob.core.windows.net/ch-markers-oct2022/2_Unknown_Regular.png",
+            "PortSummary": [
+                {
+                    "CountString": "1 Port",
+                    "StatusString": "Total",
+                    "StatusStyle": "RegularStyle"
+                }
+            ]
+        }
+    ]
+}

@@ -1,11 +1,11 @@
 from lightning.pytorch.callbacks import ModelCheckpoint
 from pytorch_lightning.callbacks import EarlyStopping
-from src.model.model_classic import BaselineModelPV
+from src.model.tf_model import TF_model
 
 
 def get_model(run_params):
     if run_params.model in ['gcn', 'gat', 'mlp', 'gcn1d', 'gcn1d-big', 'gConvLSTM', 'gConvGRU', 'DCRNN', 'GraphWavenet', 'AGCRNModel', 'miniLSTM', 'miniGRU']:
-        model = BaselineModelPV(run_params)
+        model = TF_model(run_params)
     else:
         raise Exception('Error in select the model!')
     return model

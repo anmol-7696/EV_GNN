@@ -7,13 +7,26 @@ This repository hosts a collaborative project focused on developing **Graph Neur
 ## 📂 Repository Structure  
 EV_GNN\
 │── data --> Datasets for training and testing\
-│── models --> GNN implementations \
-│── notebooks --> Jupyter Notebooks for experiments\
-│── scripts --> Preprocessing and utility scripts\
-│── experiments --> Results and benchmarking \
-│── docs --> Documentation and references \
-│── README.md --> Introduction and usage guide
-
+│──── \ ev --> EV datasets \
+│──── \ ──── \ denmark --> EV dataset \
+│──── \ ──── \ ──── \denmark_ev_station_availability\ --> Folder with EV files \
+│──── \ ──── \ ──── \DenamarkEVstations.json --> EV metadata \
+│──── \ other --> Observations maps \
+│──── \ traffic --> Model checkpoints \
+│──── \ ──── \ denmark --> Traffic dataset \
+│──── \ ──── \ ──── \citypulse_traffic_raw_data_surrey_feb_jun_2014\ --> Folder with Traffic files \
+│──── \ ──── \ ──── \ traffic_metadata.json --> Traffic metadata\
+│── logs --> Folder for saving logs info \
+│── env.yml --> Conda environment \
+│── README.md --> Introduction and usage guide \
+│── src\ --> Code \
+│──── \ checkpoints --> Model checkpoints \
+│──── \ config.py --> Code parameters \
+│──── \ dataset --> Denmark dataset code \
+│──── \ main.py --> Start training \
+│──── \ model --> Collection of neural models  \
+│──── \ utils --> Utils functions \
+│──── \ webscraping --> Gathering denmark dataset data \
 
 ## 🚀 Run the code
 1. Clone the repository:  
@@ -23,5 +36,11 @@ EV_GNN\
    ```
 2. Install the dependencies:
     ```bash
-    pip install -r requirements.txt
+    conda env create -f env.yml
+    conda activate tf_env
+    ```
+   
+3. Run training:
+   ```bash
+    python main_example.py
     ```
